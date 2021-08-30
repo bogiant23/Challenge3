@@ -137,8 +137,14 @@
 }
 li.circle {
   list-style-type: circle;
-  margin-top: -35px;
+
+  margin-top: -50px;
 }
+#tanda {
+  height: 1rem;
+  width: 1rem;
+}
+
 .list-style p {
   border-left: 1px solid rgb(255, 255, 255);
   padding: 15px;
@@ -198,7 +204,8 @@ li.circle {
 }
 .footer {
   background-image: url(./assets/Rectangle\ 4.3.png);
-  height: 959.87px;
+  height: 850px;
+  width: 1440.2px;
 }
 .patung {
   width: 440px;
