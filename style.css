@@ -82,9 +82,125 @@
   width: 1441.548828125px;
   background-size: cover;
 }
+
+.teks1 p {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 2px;
+
+  color: #ffffff;
+}
+.teks2 p {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.kiri {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.kiri button {
+  border: none;
+}
+.kanan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.kanan button {
+  border: none;
+}
+.pict {
+  padding-top: 30px;
+
+  width: 750px;
+}
+.pd-teks {
+  padding-top: 270px;
+}
+
 .main3 {
   background-image: url(assets/features.jpg);
   background-size: cover;
   width: 1441.62px;
   height: 870.26px;
+}
+li.circle {
+  list-style-type: circle;
+  margin-top: -35px;
+}
+.list-style p {
+  border-left: 1px solid rgb(255, 255, 255);
+  padding: 15px;
+  position: relative;
+  left: -16px;
+  top: -20px;
+}
+.system-requirements {
+  background-image: url(./assets/bg\ image\ 4.png);
+  background-size: cover;
+  height: 969px;
+  width: 1441.58px;
+}
+.border {
+  border: 1px solid #979797;
+}
+
+.req h3 {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height */
+
+  letter-spacing: 2px;
+
+  color: #ffb548;
+}
+.req h5 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  /* or 122% */
+
+  color: #ffffff;
+}
+
+.top-scores {
+  background-image: url(./assets/topscore1.png);
+  background-size: cover;
+  height: 900px;
+  width: 1441.58px;
+}
+.user1 {
+  padding-left: 150px;
+  padding-bottom: 10px;
+}
+.user2 {
+  padding-right: 150px;
+}
+.user3 {
+  padding-left: 150px;
+  padding-top: 10px;
+}
+.footer {
+  background-image: url(./assets/Rectangle\ 4.3.png);
+  height: 959.87px;
+}
+.patung {
+  width: 440px;
+  padding-left: 100px;
 }
