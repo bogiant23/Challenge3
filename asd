@@ -1,3 +1,218 @@
+@media (min-width: 1200px) {
+  .bg_header {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: -0.03%;
+    bottom: 90.66%;
+
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .main1 {
+    background-image: url("assets/main-bg1.jpg");
+    height: 960.1360473632812px;
+    width: 1441.548828125px;
+    background-size: cover;
+  }
+
+  .title p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 83px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: #ffffff;
+    padding-bottom: 30px;
+  }
+  .main1 .description p {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+
+    letter-spacing: 2px;
+
+    color: #ffffff;
+    padding-bottom: 30px;
+  }
+  .btn-container button {
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 80px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 80px;
+  }
+
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90%;
+    justify-content: center;
+    padding-top: 50px;
+  }
+  .scroll {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    align-items: center;
+  }
+  .scroll p {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: justify;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+  }
+  .the-game {
+    background-image: url("assets/the-games-bg.jpg");
+    height: 960.1360473632812px;
+    width: 1441.548828125px;
+    background-size: cover;
+  }
+
+  .teks1 p {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+
+    color: #ffffff;
+  }
+  .teks2 p {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: #ffffff;
+  }
+  .kiri {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .kiri button {
+    border: none;
+  }
+  .kanan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .kanan button {
+    border: none;
+  }
+  .pict {
+    padding-top: 30px;
+
+    width: 750px;
+  }
+  .pd-teks {
+    padding-top: 270px;
+  }
+
+  .main3 {
+    background-image: url(assets/features.jpg);
+    background-size: cover;
+    width: 1441.62px;
+    height: 870.26px;
+  }
+  li.circle {
+    list-style-type: circle;
+
+    margin-top: -50px;
+  }
+  #tanda {
+    height: 1rem;
+    width: 1rem;
+  }
+
+  .list-style p {
+    border-left: 1px solid rgb(255, 255, 255);
+    padding: 15px;
+    position: relative;
+    left: -16px;
+    top: -20px;
+  }
+  .system-requirements {
+    background-image: url(./assets/bg\ image\ 4.png);
+    background-size: cover;
+    height: 969px;
+    width: 1441.58px;
+  }
+  .border {
+    border: 1px solid #979797;
+  }
+
+  .req h3 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+
+    letter-spacing: 2px;
+
+    color: #ffb548;
+  }
+  .req h5 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* or 122% */
+
+    color: #ffffff;
+  }
+
+  .top-scores {
+    background-image: url(./assets/topscore1.png);
+    background-size: cover;
+    height: 900px;
+    width: 1441.58px;
+  }
+  .user1 {
+    padding-left: 150px;
+    padding-bottom: 10px;
+  }
+  .user2 {
+    padding-right: 150px;
+  }
+  .user3 {
+    padding-left: 150px;
+    padding-top: 10px;
+  }
+  .footer {
+    background-image: url(./assets/Rectangle\ 4.3.png);
+    height: 850px;
+    width: 1440.2px;
+  }
+  .patung {
+    width: 440px;
+    padding-left: 100px;
+  }
+}
 @media (min-width: 992px) {
   .bg_header {
     position: absolute;
@@ -112,8 +327,6 @@
   }
   .kiri button {
     border: none;
-    padding-top: 127px;
-    padding-left: 37.5px;
   }
   .kanan {
     display: flex;
@@ -122,11 +335,6 @@
   }
   .kanan button {
     border: none;
-    padding-right: 210px;
-    padding-top: 127.5px;
-  }
-  .size-gunting {
-    width: 75%;
   }
   .pict {
     padding-top: 22.5px;
@@ -200,15 +408,15 @@
     width: 1080px;
   }
   .user1 {
-    padding-left: 0px;
-    padding-bottom: 0px;
+    padding-left: 112.5px;
+    padding-bottom: 7.5px;
   }
   .user2 {
-    padding-right: 0px;
+    padding-right: 112.5px;
   }
   .user3 {
-    padding-left: 0px;
-    padding-top: 0px;
+    padding-left: 112.5px;
+    padding-top: 7.5px;
   }
   .footer {
     background-image: url(./assets/Rectangle\ 4.3.png);
@@ -218,280 +426,5 @@
   .patung {
     width: 330px;
     padding-left: 75px;
-  }
-  .cbuser1 {
-    background: rgba(255, 255, 255, 0.08);
-    border-radius: 7.5px;
-    padding-left: 7.5px;
-    padding-right: 7.5px;
-  }
-  .cbuser2 {
-    background: rgba(255, 255, 255, 0.08);
-    border-radius: 7.5px;
-    padding-left: 7.5px;
-    padding-right: 15px;
-  }
-  .cbuser3 {
-    background: rgba(255, 255, 255, 0.08);
-    border-radius: 7.5px;
-    padding-left: 7.5px;
-    padding-right: 15px;
-  }
-  .pd-topscore {
-    padding-top: 2rem;
-  }
-}
-
-@media (min-width: 992px) {
-  .bg_header {
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: -0.03%;
-    bottom: 90.66%;
-
-    background: rgba(0, 0, 0, 0.5);
-  }
-  .main1 {
-    background-image: url("assets/main-bg1.jpg");
-    height: 960.1360473632812px;
-    width: 1441.548828125px;
-    background-size: cover;
-  }
-
-  .title p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 72px;
-    line-height: 83px;
-    text-align: center;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-
-    color: #ffffff;
-    padding-bottom: 30px;
-  }
-  .main1 .description p {
-    font-family: Arial;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
-    /* identical to box height */
-
-    letter-spacing: 2px;
-
-    color: #ffffff;
-    padding-bottom: 30px;
-  }
-  .btn-container button {
-    font-size: 16px;
-    font-weight: bold;
-    padding-left: 80px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-right: 80px;
-  }
-
-  .main-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 90%;
-    justify-content: center;
-    padding-top: 50px;
-  }
-  .scroll {
-    display: flex;
-    flex-direction: column;
-    padding-top: 20px;
-    align-items: center;
-  }
-  .scroll p {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 22px;
-    text-align: justify;
-    text-transform: uppercase;
-    color: #ffffff;
-    padding-bottom: 10px;
-    margin-bottom: 0;
-  }
-  .the-game {
-    background-image: url("assets/the-games-bg.jpg");
-    height: 960.1360473632812px;
-    width: 1441.548828125px;
-    background-size: cover;
-  }
-
-  .teks1 p {
-    font-family: Arial;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
-    letter-spacing: 2px;
-
-    color: #ffffff;
-  }
-  .teks2 p {
-    font-family: Arial;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 56px;
-    line-height: 64px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-
-    color: #ffffff;
-  }
-  .kiri {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .kiri button {
-    border: none;
-    padding-top: 170px;
-    padding-left: 50px;
-  }
-  .kanan {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .kanan button {
-    border: none;
-    padding-left: 250px;
-    padding-top: 180px;
-  }
-  .size-gunting {
-    width: 100%;
-  }
-  .pict {
-    padding-top: 30px;
-
-    width: 750px;
-  }
-  .pd-teks {
-    padding-top: 270px;
-  }
-
-  .main3 {
-    background-image: url(assets/features.jpg);
-    background-size: cover;
-    width: 1441.62px;
-    height: 870.26px;
-  }
-  li.circle {
-    list-style-type: circle;
-
-    margin-top: -50px;
-  }
-  #tanda {
-    height: 1rem;
-    width: 1rem;
-  }
-
-  .list-style p {
-    border-left: 1px solid rgb(255, 255, 255);
-    padding: 15px;
-    position: relative;
-    left: -16px;
-    top: -20px;
-  }
-  .system-requirements {
-    background-image: url(./assets/bg\ image\ 4.png);
-    background-size: cover;
-    height: 969px;
-    width: 1441.58px;
-  }
-  .border {
-    border: 1px solid #979797;
-  }
-
-  .req h3 {
-    font-family: Arial;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
-    /* identical to box height */
-
-    letter-spacing: 2px;
-
-    color: #ffb548;
-  }
-  .req h5 {
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 22px;
-    /* or 122% */
-
-    color: #ffffff;
-  }
-
-  .top-scores {
-    background-image: url(./assets/topscore1.png);
-    background-size: cover;
-    height: 900px;
-    width: 1441.58px;
-  }
-  .btn-topscores {
-    width: 15rem;
-    height: 3rem;
-  }
-  .cbuser1 {
-    background: rgba(255, 255, 255, 0.08);
-    border-radius: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  .cbuser2 {
-    background: rgba(255, 255, 255, 0.08);
-    border-radius: 10px;
-    padding-left: 10px;
-    padding-right: 20px;
-  }
-  .cbuser3 {
-    background: rgba(255, 255, 255, 0.08);
-    border-radius: 10px;
-    padding-left: 10px;
-    padding-right: 20px;
-  }
-  .user1 {
-    padding-left: 150px;
-    padding-bottom: 10px;
-  }
-  .user2 {
-    padding-right: 150px;
-  }
-  .user3 {
-    padding-left: 150px;
-    padding-top: 10px;
-  }
-  .footer {
-    background-image: url(./assets/Rectangle\ 4.3.png);
-    height: 850px;
-    width: 1440.2px;
-  }
-  .pdt100 {
-    padding-top: 100px;
-  }
-  .pdt50 {
-    padding-top: 50px;
-  }
-  .patung {
-    width: 440px;
-    padding-left: 100px;
-  }
-  .pd-topscore {
-    padding-top: 10rem;
   }
 }
