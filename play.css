@@ -13,12 +13,15 @@
   text-align: center;
   color: #f9b23d;
 }
+body {
+  background-color: #9c835f;
+}
 .bg-main {
-  /* height: 100%; */
+  height: 100%;
   position: absolute;
+  /* background-color: #9c835f; */
   z-index: -1;
   top: 0;
-  background-color: #9c835f;
 }
 .vs-big {
   font-family: Open Sans;
