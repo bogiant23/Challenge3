@@ -88,6 +88,7 @@ reset.addEventListener("click", function () {
 
   for (let i = 0; i < aiBox.length; i++) {
     humanBox[i].style.backgroundColor = "#9c835f";
+
     aiBox[i].style.backgroundColor = "#9c835f";
   }
 
