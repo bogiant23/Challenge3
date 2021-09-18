@@ -14,7 +14,10 @@
   color: #f9b23d;
 }
 .bg-main {
-  /* position: absolute; */
+  /* height: 100%; */
+  position: absolute;
+  z-index: -1;
+  top: 0;
   background-color: #9c835f;
 }
 .vs-big {
